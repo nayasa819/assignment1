@@ -1,0 +1,224 @@
+
+<!--
+Section: Web Development I Lab
+Project Name: Personal Portfolio Website
+Page Name: Nayasa's Portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Nayasa | Personal Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Skip link for accessibility -->
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- Header section -->
+    <header>
+        <h1>Nayasa's Portfolio</h1>
+        <p>B.Sc. Data Science Student</p>
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main id="main-content">
+
+        <!-- Hero section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio!</h2>
+
+            <p>
+                Hello! I am Nayasa, a B.Sc. Data Science
+                student who enjoys learning technology,
+                programming, and solving real-world problems.
+            </p>
+
+            <p>
+                I am excited to learn new skills and
+                build useful projects.
+            </p>
+        </section>
+
+        <!-- About section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img src="images/profile.jpg"
+                 alt="Profile picture of Nayasa"
+                 width="200">
+
+            <p>
+                My name is Nayasa. I am pursuing B.Sc.
+                in Data Science at K.R. Mangalam University.
+
+                I am interested in Python, web development,
+                and data analysis. I want to improve my
+                technical and communication skills and
+                create projects that solve real problems.
+            </p>
+        </section>
+
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <ul>
+                <li>
+                    <article>
+                        <h3>Student Attendance System</h3>
+                        <p>
+                            A simple project to maintain
+                            and manage student attendance.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>College Campus Guide</h3>
+                        <p>
+                            A website idea to help students
+                            find different departments
+                            and important places on campus.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <h3>Mobile Phone Usage Survey</h3>
+                        <p>
+                            A small data science project
+                            to study students' daily
+                            mobile phone usage.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>My Technical Skills</h2>
+
+            <table border="1">
+                <caption>
+                    My Current Learning Progress
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Learning Level</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+
+                    <tr>
+                        <td>Data Analysis</td>
+                        <td>Learning</td>
+                    </tr>
+
+                    <tr>
+                        <td>Communication</td>
+                        <td>Improving</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                If you would like to contact me,
+                please fill out the form below.
+            </p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email address"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Your Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message here"
+                        rows="5"
+                        required></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>
+            &copy; 2026 Nayasa.
+            All rights reserved.
+        </p>
+        <p>Personal Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
